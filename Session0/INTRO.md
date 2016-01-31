@@ -1,4 +1,4 @@
-## Intro to Web
+## Intro to Web Development
 
 ### Why learn Web?
 Web Development, Applications and Services are some of the most important areas of growth for the future of the Internet. Granted, this begs the question - what exactly is Web?
