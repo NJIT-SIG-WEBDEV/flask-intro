@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Our Link Shortener</title>
+	</head>
+
+	<body>
+		{% if link_name %}<h1>Your Link is: {{ link_name }}</h1>{% endif %}
+	
+		<form method="POST" action="/">
+			<input type="text" name="link" placeholder="http://..."/>
+			<button type="submit">Submit</button>
+		</form>
+	</body>
+
+</html>
