@@ -47,3 +47,31 @@ Once this is good to go, you should be able to access your MySQL database with t
 mysql -u root -p # -p is only if you have a password set
 ```
 
+### Installing MongoDB
+*Windows/Mac users*
+
+To install MongoDB, you'll need to grab MongoDB [here](https://www.mongodb.org/downloads#production). For Windows users, just grab the Windows 32-bit version.
+
+#####Windows users:
+Once you install MongoDB, you'll need to to add two folders into the directory. This process may change depending on your OS. Open Command Prompt and navigate to the MongoDB directory inside the Program Files folder or the folder you installed it. Then follow the process below.:
+```
+cd Server\3.2
+mkdir data\db
+cd bin
+mongod
+```
+
+#####Mac Users
+[Installing MongoDB on OS X](https://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition-manually)
+
+*Linux Users*
+
+[Installing MongoDB on Ubuntu](https://docs.mongodb.org/v3.0/tutorial/install-mongodb-on-ubuntu/)
+
+If you see 'waiting for connection' when you start the mongod process, then you're good to go! mongod starts the Mongo server. You'll have to keep it running while you use MongoDB. To begin playing around with MongoDB, while staying in the directory, type 'mongo' and hit enter.
+
+Here are some resources to learn how to use MongoDB.
+
+[MongoDB Official Documentation](https://docs.mongodb.org/manual/core/introduction/)
+
+[Tutsplus Getting Started with MongoDB Part 1](http://code.tutsplus.com/tutorials/getting-started-with-mongodb-part-1--net-22879)
