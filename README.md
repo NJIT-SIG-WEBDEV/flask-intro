@@ -38,6 +38,11 @@ A sample walkthrough of how to go about this is [available here](http://www.psyc
 
 Once installed, definitely make sure that your Ubuntu instance can connect to the internet. I have seen many cases where secure networks (i.e. RUWireless Secure, NJITsecure) don't work on Virtual Machines. In this case, you may want to consider using a hot spot with your phone or some similar alternate. 
 
+### Terminal
+The Command Line is the most important tool a developer can learn! Commands that are used constantly include, but are not limited to: `cd`, `touch`, `mkdir`, `rm`, `ls` and more.
+
+New to the Command Line? Check out [Code Academy's Learn the Command Line course](https://www.codecademy.com/learn/learn-the-command-line). 
+
 ### Installing LAMP
 
 This is where you'll almost instantly start seeing how much easier it is to use Ubuntu for development! Get started by installing LAMP - there is a really awesome guide on this by Digital Ocean, [available here](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu).
