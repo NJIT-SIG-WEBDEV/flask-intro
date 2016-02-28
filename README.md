@@ -80,3 +80,12 @@ Here are some resources to learn how to use MongoDB.
 [MongoDB Official Documentation](https://docs.mongodb.org/manual/core/introduction/)
 
 [Tutsplus Getting Started with MongoDB Part 1](http://code.tutsplus.com/tutorials/getting-started-with-mongodb-part-1--net-22879)
+
+### NodeJS
+Install NodeJS (1st answer): http://askubuntu.com/questions/594656/how-to-install-the-latest-versions-of-nodejs-and-npm-for-ubuntu-14-04-lts
+
+See if npm is installed.  If not; 'sudo apt-get npm'
+
+ExpressJS Hello World: http://expressjs.com/en/starter/hello-world.html
+
+http://expressjs.com/en/starter/installing.html
